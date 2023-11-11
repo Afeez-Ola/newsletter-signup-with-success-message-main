@@ -1,0 +1,75 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+
+body {
+    background: var(--charcoal-grey);
+    -webkit-font-smoothing: antialiased;
+}
+
+:root {
+    --tomato: hsl(4, 100%, 67%);
+    --dark-slate-grey: hsl(234, 29%, 20%);
+    --charcoal-grey: hsl(235, 18%, 26%);
+    --grey: hsl(231, 7%, 60%);
+    --white: hsl(0, 0%, 100%);
+    --invalid-color: hsl(0, 100%, 50%);
+    --invalid-bg-color: hsla(4, 100%, 67%, .2);
+    --gradient: linear-gradient(90deg, var(--primary-2) 20%, var(--primary-1) 80%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body,
+input,
+button,
+table {
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+.main {
+    background: var(--white);
+    position: absolute;
+    top: 28%;
+    left: 33%;
+}
+
+.left {
+    padding-left: 40px;
+}
+
+.left h2 {
+    color: var(--dark-slate-grey);
+}
+
+.left p {
+    color: var(--dark-slate-grey);
+}
+
+.mail_section input {
+    border: 1px solid var(--grey);
+    width: 100%;
+
+}
+
+form input:invalid {
+    background: hsla(4, 100%, 67%, 0.568);
+    color: hsla(4, 100%, 67%, 0.568);
+}
+
+.mail_section button {
+    color: var(--white);
+    background: var(--dark-slate-grey);
+    width: 100%;
+}
