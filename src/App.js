@@ -1,6 +1,6 @@
 import './App.css';
-import iconList from './assets/images/icon-list.svg';\
-import signUpIllustration from "./assets/images/illustration-sign-up-desktop.svg";
+import iconList from './assets/images/icon-list.svg';
+import signUpIllustration from './assets/images/illustration-sign-up-desktop.svg';
 
 function App() {
  return (
@@ -47,7 +47,7 @@ function App() {
     </form>
    </div>
    <div class='right'>
-    <img src='/assets/images/illustration-sign-up-desktop.svg' alt=''></img>
+    <img src={signUpIllustration} alt=''></img>
    </div>
   </div>
  );

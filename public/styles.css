@@ -41,7 +41,7 @@ button {
 .main {
     background: var(--white);
     position: absolute;
-    top: 28%;
+    top: 50%;
     left: 33%;
 }
 
