@@ -1,10 +1,10 @@
 import React from 'react';
-import signUpIllustration from '../assets/images/illustration-sign-up-desktop.svg';
+import signUpIllustrationDesktop from '../assets/images/illustration-sign-up-desktop.svg';
 
 function RightSection() {
  return (
   <div className='right'>
-   <img src={signUpIllustration} alt=''></img>
+   <img className='w-full h-full' src={signUpIllustrationDesktop} alt=''></img>
   </div>
  );
 }

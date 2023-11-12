@@ -41,9 +41,6 @@ button {
 
 .main {
   background: var(--white);
-  position: absolute;
-  top: 18%;
-  left: 33%;
 }
 
 .left {
@@ -92,4 +89,9 @@ button {
   color: var(--white);
   background: var(--dark-slate-grey);
   width: 100%;
+}
+
+.right img {
+  width: 100%;
+  object-fit: cover;
 }
