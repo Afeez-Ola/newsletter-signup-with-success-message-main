@@ -4,8 +4,8 @@ import iconList from '../assets/images/icon-list.svg';
 
 function LeftSection() {
  return (
-  <div className='left  m-auto'>
-   <h2 className='font-bold text-5xl md:py-4'>Stay updated!</h2>
+  <div className='left m-auto'>
+   <h2 className='font-bold  text-5xl md:py-4'>Stay updated!</h2>
    <p className='text-base py-4'>
     Join 60,000+ product managers receiving monthly updates on:
    </p>

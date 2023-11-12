@@ -4,18 +4,18 @@ import signUpIllustrationMobile from '../assets/images/illustration-sign-up-mobi
 
 function RightSection() {
  return (
-  <picture className='right w-full'>
+  <picture className='right w-full max-[600px]:-order-1'>
    <source
     media='(min-width: 900px)'
     srcset={signUpIllustrationDesktop}
    ></source>
    <source
-    media='(min-width: 480px)'
+    media='(max-width: 650px)'
     srcset={signUpIllustrationMobile}
    ></source>
    <img
     className='right w-full'
-    src={signUpIllustrationMobile}
+    src={signUpIllustrationDesktop}
     alt='IfItDoesntMatchAnyMedia'
    ></img>
   </picture>
