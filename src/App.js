@@ -28,9 +28,8 @@ function App() {
  };
 
  return (
-  <div className='main grid max-w-4xl grid-cols-2 gap-10 p-4 rounded-3xl'>
-   <LeftSection
-   ></LeftSection>
+  <div className='main grid max-w-4xl lg:grid-cols-2  justify-items-center gap-10 p-4 rounded-3xl'>
+   <LeftSection></LeftSection>
    <RightSection></RightSection>
   </div>
  );
