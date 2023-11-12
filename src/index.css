@@ -64,7 +64,7 @@ button {
 .formInvalid:after {
   content: "Valid email required";
   position: absolute;
-  top: 60%;
+  top: 53.8%;
   left: 35%;
   width: fit-content;
   height: 1rem;
