@@ -2,7 +2,7 @@ import React from 'react';
 import Form from './form';
 import iconList from '../assets/images/icon-list.svg';
 
-function LeftSection() {
+function LeftSection(props) {
  return (
   <div className='left m-auto'>
    <h2 className='font-bold  text-5xl md:py-4'>Stay updated!</h2>
@@ -32,7 +32,12 @@ function LeftSection() {
     </li>
    </ul>
 
-   <Form></Form>
+   <Form
+    handleSubmit={props.handleSubmit}
+    isValid={props.isValid}
+    validateEmail={props.validateEmail}
+    openModal={props.openModal}
+   ></Form>
   </div>
  );
 }
