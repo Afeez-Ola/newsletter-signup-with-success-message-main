@@ -17,6 +17,7 @@ body {
   --invalid-color: hsl(0, 100%, 50%);
   --invalid-bg-color: hsla(4, 100%, 67%, .2);
   --gradient: linear-gradient(90deg, var(--primary-2) 20%, var(--primary-1) 80%);
+  --invalid-color: hsl(0, 100%, 50%);
 }
 
 * {
@@ -63,9 +64,28 @@ button {
 
 }
 
-form input:invalid {
-  background: hsla(4, 100%, 67%, 0.568);
-  color: hsla(4, 100%, 67%, 0.568);
+.formInvalid:after {
+  content: "Valid email required";
+  position: absolute;
+  top: 60%;
+  left: 35%;
+  width: fit-content;
+  height: 1rem;
+  color: var(--invalid-color);
+  font-weight: 700;
+  font-size: var(--paragraph-font-size);
+}
+
+.valid {
+  border: 1px solid var(--grey);
+  background: var(--white);
+  color: var(--dark-slate-grey);
+}
+
+.invalid {
+  border: 1px solid var(--invalid-color);
+  background: var(--invalid-bg-color);
+  color: var(--invalid-color);
 }
 
 .mail_section button {
