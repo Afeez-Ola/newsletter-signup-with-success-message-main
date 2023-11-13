@@ -1,8 +1,6 @@
 # Frontend Mentor - Newsletter sign-up form with success message solution
 
-This is a solution to the [Newsletter sign-up form with success message challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
-
-
+This is a solution to the [Newsletter sign-up form with success message challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Overview
 
@@ -18,12 +16,10 @@ Users should be able to:
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
 
-
-
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/Afeez-Ola/newsletter-signup-with-success-message-main)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://newsletter-signup-with-success-message-main.vercel.app/)
 
 ## My process
 
@@ -38,11 +34,8 @@ Users should be able to:
 - [Tailwind](https://tailwindcss.com/) - CSS Framework
 - [Styled Components](https://styled-components.com/) - For styles
 
-
-
 ## Author
 
 - Website - [Afeez Bolaji](https://medium.com/@mobolaji___)
 - Frontend Mentor - [@afeez-ola](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@mobolaji___](https://www.twitter.com/mobolaji___)
-
+- Twitter - [@mobolaji\_\_\_](https://www.twitter.com/mobolaji___)
