@@ -1,6 +1,7 @@
 import './App.css';
 import RightSection from './components/rightSection';
 import LeftSection from './components/leftSection';
+import Modal from './components/modal';
 import { useState } from 'react';
 
 function App() {
@@ -31,15 +32,18 @@ function App() {
   console.log(modal);
  };
  return (
-  <div className='main grid max-w-4xl md:grid-cols-2  md:justify-items-center gap-10 md:p-4 rounded-3xl'>
-   <LeftSection
-    handleSubmit={handleSubmit}
-    isValid={isValid}
-    validateEmail={validateEmail}
-    openModal={openModal}
-   ></LeftSection>
-   <RightSection></RightSection>
-  </div>
+  <main className='flex h-screen items-center justify-center'>
+   {/* <div className='main grid max-w-4xl md:grid-cols-2  md:justify-items-center gap-10 md:p-4 rounded-3xl'>
+    <LeftSection
+     handleSubmit={handleSubmit}
+     isValid={isValid}
+     validateEmail={validateEmail}
+     openModal={openModal}
+    ></LeftSection>
+    <RightSection></RightSection>
+   </div> */}
+   <Modal email={email}></Modal>
+  </main>
  );
 }
 
