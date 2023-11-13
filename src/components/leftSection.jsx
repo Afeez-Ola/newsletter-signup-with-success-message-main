@@ -4,7 +4,7 @@ import iconList from '../assets/images/icon-list.svg';
 
 function LeftSection(props) {
  return (
-  <div className='left m-auto'>
+  <div className='left max-[680px]:my-1 md:m-auto'>
    <h2 className='font-bold  text-5xl md:py-4'>Stay updated!</h2>
    <p className='text-base py-4'>
     Join 60,000+ product managers receiving monthly updates on:

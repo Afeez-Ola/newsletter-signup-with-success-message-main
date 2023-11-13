@@ -33,7 +33,7 @@ function App() {
  };
  return (
   <main className='flex h-screen items-center justify-center'>
-   {!modal && <div className='main grid max-w-4xl md:grid-cols-2  md:justify-items-center gap-10 md:p-4 rounded-3xl'>
+   {!modal && <div className='main grid max-w-4xl md:grid-cols-2  md:justify-items-center max-[680px]:gap-0 md:gap-10 md:p-4 rounded-3xl'>
     <LeftSection
      handleSubmit={handleSubmit}
      isValid={isValid}
