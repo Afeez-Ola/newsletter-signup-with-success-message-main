@@ -16,7 +16,7 @@ function Modal(props) {
     <h2 className='text-4xl py-2 font-bold'>Thanks for subscribing!</h2>
     <p className='py-2 max-[680px]:pb-24 '>
      A confirmation email has been sent to{' '}
-     <strong className='font-bold'>afeez123@123.com{props.email}</strong>.
+     <strong className='font-bold'>{props.email}</strong>.
      Please open it and click the button inside to confirm your subscription.
     </p>
    </div>
