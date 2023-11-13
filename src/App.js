@@ -33,7 +33,7 @@ function App() {
  };
  return (
   <main className='flex h-screen items-center justify-center'>
-   {/* <div className='main grid max-w-4xl md:grid-cols-2  md:justify-items-center gap-10 md:p-4 rounded-3xl'>
+   <div className='main grid max-w-4xl md:grid-cols-2  md:justify-items-center gap-10 md:p-4 rounded-3xl'>
     <LeftSection
      handleSubmit={handleSubmit}
      isValid={isValid}
@@ -41,8 +41,8 @@ function App() {
      openModal={openModal}
     ></LeftSection>
     <RightSection></RightSection>
-   </div> */}
-   <Modal email={email}></Modal>
+   </div>
+   {modal && <Modal closeModal={setModal} email={email}></Modal>}
   </main>
  );
 }
